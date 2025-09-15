@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Permission Analyzer</string>
+
+    <string name="scan_apps_button">🔍 Scan Installed Apps</string>
+    <string name="upload_apk_button">📁 Upload APK File</string>
+    <string name="scanning_progress">🔄 Scanning...</string>
+    <string name="analyzing_progress">🔄 Analyzing...</string>
+
+
+    <string name="settings_title">Settings</string>
+    <string name="scan_system_apps">Scan system apps</string>
+    <string name="show_detailed_permissions">Show detailed permissions</string>
+    <string name="max_apps_to_scan">Maximum apps to scan</string>
+    <string name="auto_scan_on_startup">Auto-scan on startup</string>
+    <string name="export_scan_results">Export scan results</string>
+    <string name="clear_all_data">Clear all data</string>
+
+    <string name="scan_history_title">Scan History</string>
+    <string name="no_history_available">No scan history available</string>
+    <string name="export_history">Export History</string>
+
+    <string name="export_report">Export Report</string>
+    <string name="share_report">Share Report</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="clear">Clear</string>
+    <string name="dismiss">Dismiss</string>
+
+    <string name="apk_upload_coming_soon">APK upload feature coming soon</string>
+    <string name="settings_coming_soon">Settings feature coming soon</string>
+    <string name="history_coming_soon">Scan history feature coming soon</string>
+    <string name="scan_complete">Scan completed successfully</string>
+    <string name="apk_analysis_complete">APK analysis complete</string>
+    <string name="apk_analysis_failed">Failed to analyze APK</string>
+    <string name="export_failed">Export failed</string>
+    <string name="storage_permission_required">Storage permission required for APK analysis</string>
+    <string name="no_file_manager">No file manager found</string>
+    <string name="setting_updated">Setting updated</string>
+    <string name="all_data_cleared">All data cleared</string>
+    <string name="no_user_apps_found">No user apps found to scan</string>
+    <string name="no_scan_results">No scan results to export</string>
+    <string name="no_previous_scan">No previous scan to compare with</string>
+    <string name="no_current_scan">No current scan results</string>
+
+    <string name="category_privacy">Privacy</string>
+    <string name="category_location">Location</string>
+    <string name="category_communication">Communication</string>
+    <string name="category_personal">Personal Data</string>
+    <string name="category_storage">Storage</string>
+    <string name="category_network">Network</string>
+    <string name="category_device">Device Control</string>
+    <string name="category_system">System</string>
+    <string name="category_sensors">Sensors</string>
+    <string name="category_biometric">Biometric</string>
+    <string name="category_financial">Financial</string>
+    <string name="category_analytics">Analytics</string>
+    <string name="category_unknown">Unknown</string>
+
+    <string name="apps_scanned_label">Apps Scanned</string>
+    <string name="permissions_label">Permissions</string>
+
+    <string name="permission_analyzer_report">📱 PERMISSION ANALYZER REPORT</string>
+    <string name="scan_history_report">📊 SCAN HISTORY REPORT</string>
+    <string name="apk_analysis_results">📦 APK Analysis Results</string>
+
+    <string name="clear_data_title">Clear All Data</string>
+    <string name="clear_data_message">This will delete all scan history and reset settings. Continue?</string>
+
+    <string name="max_apps_title">Maximum Apps to Scan</string>
+    <string name="max_apps_10">10 apps</string>
+    <string name="max_apps_25">25 apps</string>
+    <string name="max_apps_50">50 apps</string>
+    <string name="max_apps_all">All apps</string>
+
+    <string name="select_app_to_analyze">Select App to Analyze</string>
+    <string name="select_installed_app">📱 Select Installed App</string>
+    <string name="app_analysis_complete">App analysis complete</string>
+    <string name="app_analysis_failed">Failed to analyze app</string>
+    <string name="storage_permission_denied">Storage permission denied. Using file picker instead.</string>
+    <string name="scan_failed">Scan failed</string>
+    <string name="last_scan_message">📅 Last scan: %s\n\nTap \'Scan\' to refresh results or view \'History\' for details</string>
+
+    <string name="select_apk_file">Select APK File</string>
+    <string name="app_analysis_error">App analysis error: %s</string>
+    <string name="apk_analysis_error">APK analysis error: %s</string>
+    <string name="scan_error">Scan error: %s</string>
+
+    <string name="scan_system_apps_setting">Scan system apps: %s</string>
+    <string name="show_detailed_permissions_setting">Show detailed permissions: %s</string>
+    <string name="max_apps_to_scan_setting">Max apps to scan: %s</string>
+    <string name="auto_scan_on_startup_setting">Auto-scan on startup: %s</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="history_export_failed">History export failed: %s</string>
+    <string name="share_report_failed">Failed to share report: %s</string>
+    <string name="scan_details">Scan Details</string>
+    <string name="date">📅 Date</string>
+    <string name="scan_type">📱 Scan Type</string>
+    <string name="apps_scanned">🔢 Apps Scanned</string>
+    <string name="total_permissions">🔐 Total Permissions</string>
+    <string name="summary">📋 Summary</string>
+
+    <!-- New strings for app management -->
+    <string name="downloaded_apps">Downloaded Apps</string>
+    <string name="system_apps">System Apps</string>
+    <string name="edit_permissions">Edit Permissions</string>
+    <string name="back">Back</string>
+    <string name="back_to_apps_list">Back to Apps List</string>
+    <string name="view_and_manage_permissions">View and manage app permissions</string>
+    <string name="edit_permissions_in_system_settings">Edit Permissions in System Settings</string>
+    <string name="unable_to_open_permission_settings">Unable to open permission settings</string>
+    <string name="no_apps_found">No %s apps found</string>
+    <string name="tap_on_an_app_to_view">Tap on an app to view its permissions</string>
+    <string name="tap_on_an_app_to_manage">Tap on an app to view or manage its permissions</string>
+
+</resources>

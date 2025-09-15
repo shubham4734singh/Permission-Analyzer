@@ -1,0 +1,359 @@
+{
+  "android.permission.CAMERA": {
+    "text": "Camera Access",
+    "risk": "high",
+    "icon": "📷",
+    "explanation": "Can take photos, record videos, and access camera hardware",
+    "category": "privacy"
+  },
+  "android.permission.RECORD_AUDIO": {
+    "text": "Microphone Access",
+    "risk": "high",
+    "icon": "🎤",
+    "explanation": "Can record audio, listen to surroundings, and access microphone",
+    "category": "privacy"
+  },
+  "android.permission.ACCESS_FINE_LOCATION": {
+    "text": "Precise Location",
+    "risk": "high",
+    "icon": "📍",
+    "explanation": "Can access exact GPS coordinates and precise location",
+    "category": "location"
+  },
+  "android.permission.ACCESS_COARSE_LOCATION": {
+    "text": "Approximate Location",
+    "risk": "medium",
+    "icon": "📍",
+    "explanation": "Can access general location area (city/neighborhood level)",
+    "category": "location"
+  },
+  "android.permission.READ_CONTACTS": {
+    "text": "Read Contacts",
+    "risk": "high",
+    "icon": "👥",
+    "explanation": "Can read all contact information including names, numbers, emails",
+    "category": "personal"
+  },
+  "android.permission.WRITE_CONTACTS": {
+    "text": "Modify Contacts",
+    "risk": "medium",
+    "icon": "✏️",
+    "explanation": "Can add, modify, or delete contact information",
+    "category": "personal"
+  },
+  "android.permission.READ_SMS": {
+    "text": "Read SMS",
+    "risk": "high",
+    "icon": "💬",
+    "explanation": "Can read all text messages and SMS content",
+    "category": "communication"
+  },
+  "android.permission.SEND_SMS": {
+    "text": "Send SMS",
+    "risk": "medium",
+    "icon": "📤",
+    "explanation": "Can send text messages (may incur charges)",
+    "category": "communication"
+  },
+  "android.permission.READ_CALL_LOG": {
+    "text": "Call History",
+    "risk": "high",
+    "icon": "📞",
+    "explanation": "Can read call history, duration, and phone numbers",
+    "category": "communication"
+  },
+  "android.permission.CALL_PHONE": {
+    "text": "Make Phone Calls",
+    "risk": "medium",
+    "icon": "📞",
+    "explanation": "Can make phone calls without user confirmation",
+    "category": "communication"
+  },
+  "android.permission.READ_PHONE_STATE": {
+    "text": "Phone Information",
+    "risk": "medium",
+    "icon": "📱",
+    "explanation": "Can read phone state, device ID, and current cellular network",
+    "category": "device"
+  },
+  "android.permission.READ_CALENDAR": {
+    "text": "Calendar Access",
+    "risk": "high",
+    "icon": "📅",
+    "explanation": "Can read calendar events, appointments, and personal schedule",
+    "category": "personal"
+  },
+  "android.permission.WRITE_CALENDAR": {
+    "text": "Modify Calendar",
+    "risk": "medium",
+    "icon": "📝",
+    "explanation": "Can add, modify, or delete calendar events",
+    "category": "personal"
+  },
+  "android.permission.GET_ACCOUNTS": {
+    "text": "Account Access",
+    "risk": "high",
+    "icon": "👤",
+    "explanation": "Can access list of accounts on the device",
+    "category": "personal"
+  },
+  "android.permission.WRITE_EXTERNAL_STORAGE": {
+    "text": "Storage Write Access",
+    "risk": "medium",
+    "icon": "💾",
+    "explanation": "Can write files to external storage and SD card",
+    "category": "storage"
+  },
+  "android.permission.READ_EXTERNAL_STORAGE": {
+    "text": "Storage Read Access",
+    "risk": "low",
+    "icon": "📂",
+    "explanation": "Can read files from external storage and SD card",
+    "category": "storage"
+  },
+  "android.permission.INTERNET": {
+    "text": "Internet Access",
+    "risk": "low",
+    "icon": "🌐",
+    "explanation": "Can connect to internet and send/receive data",
+    "category": "network"
+  },
+  "android.permission.ACCESS_NETWORK_STATE": {
+    "text": "Network State",
+    "risk": "low",
+    "icon": "📶",
+    "explanation": "Can view information about network connections",
+    "category": "network"
+  },
+  "android.permission.ACCESS_WIFI_STATE": {
+    "text": "WiFi Information",
+    "risk": "low",
+    "icon": "📡",
+    "explanation": "Can view WiFi connection information and state",
+    "category": "network"
+  },
+  "android.permission.CHANGE_WIFI_STATE": {
+    "text": "WiFi Control",
+    "risk": "low",
+    "icon": "📡",
+    "explanation": "Can enable/disable WiFi and connect to networks",
+    "category": "network"
+  },
+  "android.permission.VIBRATE": {
+    "text": "Vibration Control",
+    "risk": "low",
+    "icon": "📳",
+    "explanation": "Can control device vibration for notifications",
+    "category": "device"
+  },
+  "android.permission.WAKE_LOCK": {
+    "text": "Keep Device Awake",
+    "risk": "low",
+    "icon": "⏰",
+    "explanation": "Can prevent device from going to sleep",
+    "category": "device"
+  },
+  "android.permission.BLUETOOTH": {
+    "text": "Bluetooth Access",
+    "risk": "low",
+    "icon": "🔵",
+    "explanation": "Can connect to paired Bluetooth devices",
+    "category": "device"
+  },
+  "android.permission.BLUETOOTH_ADMIN": {
+    "text": "Bluetooth Administration",
+    "risk": "medium",
+    "icon": "🔵",
+    "explanation": "Can discover devices and manage Bluetooth settings",
+    "category": "device"
+  },
+  "android.permission.NFC": {
+    "text": "NFC Access",
+    "risk": "low",
+    "icon": "📲",
+    "explanation": "Can use Near Field Communication for data exchange",
+    "category": "device"
+  },
+  "android.permission.BODY_SENSORS": {
+    "text": "Body Sensors",
+    "risk": "medium",
+    "icon": "❤️",
+    "explanation": "Can access heart rate, step counter, and other body sensors",
+    "category": "sensors"
+  },
+  "android.permission.RECEIVE_BOOT_COMPLETED": {
+    "text": "Auto-Start on Boot",
+    "risk": "low",
+    "icon": "🚀",
+    "explanation": "Can automatically start when device is turned on",
+    "category": "system"
+  },
+  "android.permission.FOREGROUND_SERVICE": {
+    "text": "Background Services",
+    "risk": "low",
+    "icon": "⚙️",
+    "explanation": "Can run services in the background",
+    "category": "system"
+  },
+  "android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS": {
+    "text": "Battery Optimization Bypass",
+    "risk": "low",
+    "icon": "🔋",
+    "explanation": "Can request to bypass battery optimization",
+    "category": "system"
+  },
+  "android.permission.SYSTEM_ALERT_WINDOW": {
+    "text": "Display Over Other Apps",
+    "risk": "medium",
+    "icon": "🔝",
+    "explanation": "Can display content on top of other applications",
+    "category": "system"
+  },
+  "android.permission.WRITE_SETTINGS": {
+    "text": "Modify System Settings",
+    "risk": "medium",
+    "icon": "⚙️",
+    "explanation": "Can modify system settings and configurations",
+    "category": "system"
+  },
+  "android.permission.INSTALL_PACKAGES": {
+    "text": "Install Applications",
+    "risk": "high",
+    "icon": "📦",
+    "explanation": "Can install new applications without user confirmation",
+    "category": "system"
+  },
+  "android.permission.DELETE_PACKAGES": {
+    "text": "Uninstall Applications",
+    "risk": "high",
+    "icon": "🗑️",
+    "explanation": "Can uninstall applications without user confirmation",
+    "category": "system"
+  },
+  "android.permission.ACCESS_NOTIFICATION_POLICY": {
+    "text": "Notification Access",
+    "risk": "medium",
+    "icon": "🔔",
+    "explanation": "Can access and modify notification settings",
+    "category": "system"
+  },
+  "android.permission.BIND_NOTIFICATION_LISTENER_SERVICE": {
+    "text": "Read Notifications",
+    "risk": "high",
+    "icon": "👁️",
+    "explanation": "Can read all notifications from other apps",
+    "category": "privacy"
+  },
+  "android.permission.BIND_ACCESSIBILITY_SERVICE": {
+    "text": "Accessibility Service",
+    "risk": "high",
+    "icon": "♿",
+    "explanation": "Can observe user actions and interact with all apps",
+    "category": "system"
+  },
+  "android.permission.DEVICE_ADMIN": {
+    "text": "Device Administrator",
+    "risk": "high",
+    "icon": "👑",
+    "explanation": "Can perform administrative actions on the device",
+    "category": "system"
+  },
+  "android.permission.MANAGE_EXTERNAL_STORAGE": {
+    "text": "All Files Access",
+    "risk": "high",
+    "icon": "🗂️",
+    "explanation": "Can access all files on external storage",
+    "category": "storage"
+  },
+  "android.permission.REQUEST_INSTALL_PACKAGES": {
+    "text": "Request App Installation",
+    "risk": "medium",
+    "icon": "📲",
+    "explanation": "Can request to install applications from unknown sources",
+    "category": "system"
+  },
+  "com.android.vending.BILLING": {
+    "text": "In-App Purchases",
+    "risk": "medium",
+    "icon": "💳",
+    "explanation": "Can perform in-app purchases and billing operations",
+    "category": "financial"
+  },
+  "android.permission.USE_FINGERPRINT": {
+    "text": "Fingerprint Access",
+    "risk": "medium",
+    "icon": "👆",
+    "explanation": "Can use fingerprint sensor for authentication",
+    "category": "biometric"
+  },
+  "android.permission.USE_BIOMETRIC": {
+    "text": "Biometric Authentication",
+    "risk": "medium",
+    "icon": "🔐",
+    "explanation": "Can use biometric sensors for authentication",
+    "category": "biometric"
+  },
+  "android.permission.PACKAGE_USAGE_STATS": {
+    "text": "Usage Statistics",
+    "risk": "medium",
+    "icon": "📊",
+    "explanation": "Can access app usage statistics and screen time data",
+    "category": "analytics"
+  },
+  "android.permission.BIND_DEVICE_ADMIN": {
+    "text": "Device Admin Binding",
+    "risk": "high",
+    "icon": "🔒",
+    "explanation": "Can bind as device administrator with elevated privileges",
+    "category": "system"
+  },
+  "android.permission.WRITE_SECURE_SETTINGS": {
+    "text": "Secure Settings Write",
+    "risk": "high",
+    "icon": "🔧",
+    "explanation": "Can modify secure system settings",
+    "category": "system"
+  },
+  "android.permission.MODIFY_AUDIO_SETTINGS": {
+    "text": "Audio Settings Control",
+    "risk": "low",
+    "icon": "🔊",
+    "explanation": "Can modify audio volume and sound settings",
+    "category": "device"
+  },
+  "android.permission.CHANGE_NETWORK_STATE": {
+    "text": "Network Control",
+    "risk": "low",
+    "icon": "📡",
+    "explanation": "Can change network connectivity state",
+    "category": "network"
+  },
+  "android.permission.RECEIVE_SMS": {
+    "text": "Receive SMS",
+    "risk": "medium",
+    "icon": "📨",
+    "explanation": "Can receive and process incoming text messages",
+    "category": "communication"
+  },
+  "android.permission.READ_PHONE_NUMBERS": {
+    "text": "Phone Numbers Access",
+    "risk": "high",
+    "icon": "📞",
+    "explanation": "Can read device phone numbers",
+    "category": "personal"
+  },
+  "android.permission.ANSWER_PHONE_CALLS": {
+    "text": "Answer Calls",
+    "risk": "medium",
+    "icon": "📞",
+    "explanation": "Can answer incoming phone calls programmatically",
+    "category": "communication"
+  },
+  "android.permission.ADD_VOICEMAIL": {
+    "text": "Voicemail Access",
+    "risk": "medium",
+    "icon": "🎵",
+    "explanation": "Can add voicemails to the system voicemail service",
+    "category": "communication"
+  }
+}

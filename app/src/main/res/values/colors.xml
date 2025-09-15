@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- System Colors - Light Theme -->
+    <color name="primary">#6366F1</color>
+    <color name="primary_dark">#4F46E5</color>
+    <color name="primary_light">#A5B4FC</color>
+    <color name="accent">#10B981</color>
+
+    <!-- Background Colors - Light Theme -->
+    <color name="background_primary">#FAFAFA</color>
+    <color name="surface_primary">#FFFFFF</color>
+    <color name="surface_secondary">#F8FAFC</color>
+    <color name="background_gradient_start">#F0F9FF</color>
+    <color name="background_gradient_end">#E0F2FE</color>
+
+    <!-- Text Colors - Light Theme -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+
+    <!-- Risk Colors (same for both themes) -->
+    <color name="risk_critical">#EF4444</color>
+    <color name="risk_high">#F87171</color>
+    <color name="risk_medium">#FBBF24</color>
+    <color name="risk_low">#10B981</color>
+    <color name="risk_minimal">#059669</color>
+
+    <!-- Progress Colors -->
+    <color name="progress_color">#4CAF50</color>
+    <color name="progress_track">#E0E0E0</color>
+
+    <!-- Alert Colors - Light Theme -->
+    <color name="alert_background">#FFF8E1</color>
+    <color name="alert_text">#E65100</color>
+    <color name="alert_border">#FFB74D</color>
+
+    <!-- Button Colors -->
+    <color name="button_scan">#059669</color>
+    <color name="button_upload">#2563EB</color>
+    <color name="button_danger">#DC2626</color>
+    <color name="button_warning">#D97706</color>
+    <color name="button_scan_gradient_start">#10B981</color>
+    <color name="button_scan_gradient_end">#059669</color>
+    <color name="button_upload_gradient_start">#3B82F6</color>
+    <color name="button_upload_gradient_end">#2563EB</color>
+
+    <!-- Card Colors - Light Theme -->
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_border">#E0E0E0</color>
+
+    <!-- Status Colors - Light Theme -->
+    <color name="status_safe">#E8F5E8</color>
+    <color name="status_warning">#FFF3E0</color>
+    <color name="status_danger">#FFEBEE</color>
+
+    <!-- Material Design Colors -->
+    <color name="material_blue">#2196F3</color>
+    <color name="material_green">#4CAF50</color>
+    <color name="material_orange">#FF9800</color>
+    <color name="material_red">#F44336</color>
+    <color name="material_purple">#9C27B0</color>
+    <color name="material_teal">#009688</color>
+
+    <!-- Transparent Colors -->
+    <color name="transparent">#00000000</color>
+    <color name="semi_transparent">#80000000</color>
+
+    <!-- Standard Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_light">#F5F5F5</color>
+    <color name="gray_medium">#BDBDBD</color>
+    <color name="gray_dark">#757575</color>
+</resources>
